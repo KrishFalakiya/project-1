@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Ford Model T</title>
+    <link rel="shortcut icon" href="images/ford.png" type="image/x-icon" />
+    <link href="./CSS/style.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>hello</h1>
+    <header>
+        <h1>THE MODEL T</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Home Page">Home</a></li>
+                <li><a href="about.html" title="About page">About Us</a></li>
+                <li><a href="review.html" title="Review Page">Reviews</a></li>
+                <li><a href="support.html" title="Support page">Support</a></li>
+                <li><a href="investors.html" title="Information Page">Investors</a></li>
+            </ul>
+        </nav>
+        
+        <img id="headerImage" src="images/T-Model.png" alt="tmodel" onclick="toggleHeaderImage()"/>
+    </header>
+    <main>
+        <section>
+            <h2>The Model T</h2>
+            <figcaption>THE MODEL T IS FORD’S UNIVERSAL CAR THAT PUT THE WORLD ON WHEELS.</figcaption>
+            <button id="toggleButton" onclick="toggleDetails()">Toggle Details</button>
+            <article>
+                <h3>Invention</h3>
+                <p>The Model T was introduced to the world in 1908. Henry Ford wanted the Model T to be affordable, simple to operate, and durable. The vehicle was one of the first mass production vehicles, allowing Ford to achieve his aim of manufacturing the universal car. The Model T was manufactured on the Ford Motor Company’s moving assembly line at Ford’s revolutionary Highland Park Plant. Due to the mass production of the vehicle, Ford Motor Company could sell the vehicle for between $260 and $850 as Henry Ford passed production savings on to his customers.</p>
+                <p>The Model T was first tested by Henry Ford himself who took the vehicle on a hunting trip to Wisconsin and northern Michigan. The Model T became famous for the stunts it could perform including climbing the stairs of the Tennessee State Capitol and reaching the top of Pikes Peak. After the test of his own product, the vehicle was shipped to its first customer on <time datetime="1908-10-1">October 1, 1908.</time></p>
+            </article>
+            <article id="detailsSection">
+                <h3>More Details</h3>
+                <p>The revolutionary vehicle saw the placement of the steering wheel on the left side, allowing passengers easy access to and from the cars. The vehicle was also the first to have its engine block and the crankcase cast as a single unit, the first to have a removable cylinder head for easy access, and the first to make such extensive use of the lightweight but strong alloy known as vanadium steel. The Model T’s agile transmission made shifting gears easy for everyone. These improvements and innovations allowed the world to move towards a more urban way of life. The early Model T came with a tool kit, packed the gas tank under the front passenger seat, provided a windshield as an option (before it was standardized), and had to be cranked to get it going.</p>
+                <p>A common myth is that all model T’s were black. While Henry Ford did say “Any customer can have a car painted any color that he wants so long as it’s black,” the policy was in place solely for efficiency and uniformity. The car was only offered in black from 1914-1925, however before and after that various models of the vehicle could be purchased in a variety of colors including blue, red, grey, and green.</p>
+                <p>The vehicle also became famous for its unique nickname—Tin Lizzie. There are various accounts of how this nickname was acquired by the Model T. Possible origins include the popularity of the female name “Lizzie” during that period to a famous Model T racecar named Old Liz. Despite the popularity of the nickname Tin Lizzie, the Model T had dozens of nicknames.</p>
+                <p>The Model T was so popular Henry Ford once said: “There’s no use trying to pass a Ford, because there’s always another one just ahead.” By the early 1920s more than half of the registered automobiles in the world were Fords. More than 15,000,000 Model T’s were built and sold. In May 1927 a ceremony was held to honor the end of production of the Model T. It was the end of an era.</p>
+                <p>While the vehicle is more than 100 years old, its legacy is timeless. The vehicle had many new features that were unique for its time. The low price point allowed many people to become a Ford owner, should they choose it, and caused Ford Motor Company to be a household name.</p>
+            </article>
+        
+            <figure>
+                <img src="images/1980 Model.png" alt="1980"/>
+                <figcaption><strong><p>A 1980 Model T</p></strong></figcaption>
+            </figure>
+        </section>
+        
+    </main>
+    <footer>
+        <nav>
+            <a href="links/privacy notice.html" title="privacy notice">Privacy Notice</a> | <a href="links/terms.html" title="terms and conditions">Terms and Conditions</a>
+        </nav>
+        <p>&copy; 2023 Model T Ford Website</p>
+        
+    </footer>
+    <script src="script.js"></script>
+
 </body>
 </html>
+ 
